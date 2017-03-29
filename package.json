@@ -1,13 +1,13 @@
 {
   "name": "httperver",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "httpserver configuration",
   "main": "src/server.js",
   "repository": "https://github.com/mprather1/httpserver",
   "author": "Michael Prather",
   "license": "MIT",
   "scripts": {
-    "build": "babel -D -d lib/ src/",
+    "build": "babel -D -d build/ src/",
     "prepublish": "npm run build"
   },
   "dependencies": {
