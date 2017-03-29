@@ -1,8 +1,8 @@
 {
   "name": "httperver",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "httpserver configuration",
-  "main": "build/server.js",
+  "main": "./build/server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mprather1/httpserver.git"
