@@ -1,6 +1,6 @@
 {
   "name": "httpserver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "httpserver configuration",
   "main": "src/server.js",
   "repository": "http:https://github.com/mprather1/httpserver",
