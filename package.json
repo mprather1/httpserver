@@ -1,6 +1,6 @@
 {
   "name": "httperver",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "httpserver configuration",
   "main": "./build/server.js",
   "repository": {
