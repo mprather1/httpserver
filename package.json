@@ -1,9 +1,12 @@
 {
   "name": "httperver",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "httpserver configuration",
   "main": "src/server.js",
-  "repository": "https://github.com/mprather1/httpserver",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mprather1/httpserver.git"
+  },
   "author": "Michael Prather",
   "license": "MIT",
   "scripts": {
