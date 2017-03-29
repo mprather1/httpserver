@@ -1,6 +1,6 @@
 {
   "name": "httperver",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "httpserver configuration",
   "main": "./build/server.js",
   "repository": {
@@ -16,7 +16,7 @@
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-preset-es2015-node6": "^0.4.0",
-    "babel-preset-latest": "^6.24.0",
+    "babel-preset-latest": "^6.24.0"
   },
   "engines": {
     "node": ">=6"
