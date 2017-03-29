@@ -1,13 +1,13 @@
 {
   "name": "httpserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "httpserver configuration",
   "main": "src/server.js",
   "repository": "http:https://github.com/mprather1/httpserver",
   "author": "Michael Prather",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development PORT=8000 TZ='America/Chicago' nodemon build/server.js",
+    "start": "NODE_ENV=development PORT=8000 TZ='America/Chicago' node build/server.js",
     "test": "standard && PORT=8001 TZ='America/Chicago' NODE_ENV=test mocha build/test -t 10000",
     "babel:build": "babel -d build src",
     "babel:watch": "babel --watch -d build src | ts '[%Y-%m-%d %H:%M:%S]'"
